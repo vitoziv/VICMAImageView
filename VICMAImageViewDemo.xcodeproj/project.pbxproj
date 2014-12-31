@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE6185F1A53A83700416F5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6185E1A53A83700416F5F /* main.m */; };
+		5FE618621A53A83700416F5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE618611A53A83700416F5F /* AppDelegate.m */; };
+		5FE618651A53A83700416F5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE618641A53A83700416F5F /* ViewController.m */; };
+		5FE618681A53A83700416F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE618661A53A83700416F5F /* Main.storyboard */; };
+		5FE6186A1A53A83700416F5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE618691A53A83700416F5F /* Images.xcassets */; };
+		5FE6186D1A53A83700416F5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE6186B1A53A83700416F5F /* LaunchScreen.xib */; };
+		5FE618791A53A83700416F5F /* VICMAImageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE618781A53A83700416F5F /* VICMAImageViewDemoTests.m */; };
+		5FE618831A53A83D00416F5F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FE618821A53A83D00416F5F /* 1.jpg */; };
+		5FE618871A53A87400416F5F /* VICMAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE618861A53A87400416F5F /* VICMAImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FE618731A53A83700416F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE618511A53A83700416F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE618581A53A83700416F5F;
+			remoteInfo = VICMAImageViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FE618591A53A83700416F5F /* VICMAImageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VICMAImageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE6185D1A53A83700416F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE6185E1A53A83700416F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FE618601A53A83700416F5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FE618611A53A83700416F5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FE618631A53A83700416F5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FE618641A53A83700416F5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FE618671A53A83700416F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE618691A53A83700416F5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FE6186C1A53A83700416F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5FE618721A53A83700416F5F /* VICMAImageViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VICMAImageViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE618771A53A83700416F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE618781A53A83700416F5F /* VICMAImageViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VICMAImageViewDemoTests.m; sourceTree = "<group>"; };
+		5FE618821A53A83D00416F5F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5FE618851A53A87400416F5F /* VICMAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICMAImageView.h; sourceTree = "<group>"; };
+		5FE618861A53A87400416F5F /* VICMAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICMAImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE618561A53A83700416F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE6186F1A53A83700416F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE618501A53A83700416F5F = {
+			isa = PBXGroup;
+			children = (
+				5FE6185B1A53A83700416F5F /* VICMAImageViewDemo */,
+				5FE618751A53A83700416F5F /* VICMAImageViewDemoTests */,
+				5FE6185A1A53A83700416F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE6185A1A53A83700416F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE618591A53A83700416F5F /* VICMAImageViewDemo.app */,
+				5FE618721A53A83700416F5F /* VICMAImageViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE6185B1A53A83700416F5F /* VICMAImageViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5FE618841A53A87400416F5F /* VICMAImageView */,
+				5FE618601A53A83700416F5F /* AppDelegate.h */,
+				5FE618611A53A83700416F5F /* AppDelegate.m */,
+				5FE618631A53A83700416F5F /* ViewController.h */,
+				5FE618641A53A83700416F5F /* ViewController.m */,
+				5FE618661A53A83700416F5F /* Main.storyboard */,
+				5FE618691A53A83700416F5F /* Images.xcassets */,
+				5FE6186B1A53A83700416F5F /* LaunchScreen.xib */,
+				5FE618821A53A83D00416F5F /* 1.jpg */,
+				5FE6185C1A53A83700416F5F /* Supporting Files */,
+			);
+			path = VICMAImageViewDemo;
+			sourceTree = "<group>";
+		};
+		5FE6185C1A53A83700416F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE6185D1A53A83700416F5F /* Info.plist */,
+				5FE6185E1A53A83700416F5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FE618751A53A83700416F5F /* VICMAImageViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE618781A53A83700416F5F /* VICMAImageViewDemoTests.m */,
+				5FE618761A53A83700416F5F /* Supporting Files */,
+			);
+			path = VICMAImageViewDemoTests;
+			sourceTree = "<group>";
+		};
+		5FE618761A53A83700416F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE618771A53A83700416F5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FE618841A53A87400416F5F /* VICMAImageView */ = {
+			isa = PBXGroup;
+			children = (
+				5FE618851A53A87400416F5F /* VICMAImageView.h */,
+				5FE618861A53A87400416F5F /* VICMAImageView.m */,
+			);
+			path = VICMAImageView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE618581A53A83700416F5F /* VICMAImageViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE6187C1A53A83700416F5F /* Build configuration list for PBXNativeTarget "VICMAImageViewDemo" */;
+			buildPhases = (
+				5FE618551A53A83700416F5F /* Sources */,
+				5FE618561A53A83700416F5F /* Frameworks */,
+				5FE618571A53A83700416F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VICMAImageViewDemo;
+			productName = VICMAImageViewDemo;
+			productReference = 5FE618591A53A83700416F5F /* VICMAImageViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE618711A53A83700416F5F /* VICMAImageViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE6187F1A53A83700416F5F /* Build configuration list for PBXNativeTarget "VICMAImageViewDemoTests" */;
+			buildPhases = (
+				5FE6186E1A53A83700416F5F /* Sources */,
+				5FE6186F1A53A83700416F5F /* Frameworks */,
+				5FE618701A53A83700416F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE618741A53A83700416F5F /* PBXTargetDependency */,
+			);
+			name = VICMAImageViewDemoTests;
+			productName = VICMAImageViewDemoTests;
+			productReference = 5FE618721A53A83700416F5F /* VICMAImageViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE618511A53A83700416F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vito;
+				TargetAttributes = {
+					5FE618581A53A83700416F5F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5FE618711A53A83700416F5F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5FE618581A53A83700416F5F;
+					};
+				};
+			};
+			buildConfigurationList = 5FE618541A53A83700416F5F /* Build configuration list for PBXProject "VICMAImageViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE618501A53A83700416F5F;
+			productRefGroup = 5FE6185A1A53A83700416F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE618581A53A83700416F5F /* VICMAImageViewDemo */,
+				5FE618711A53A83700416F5F /* VICMAImageViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE618571A53A83700416F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE618681A53A83700416F5F /* Main.storyboard in Resources */,
+				5FE618831A53A83D00416F5F /* 1.jpg in Resources */,
+				5FE6186D1A53A83700416F5F /* LaunchScreen.xib in Resources */,
+				5FE6186A1A53A83700416F5F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE618701A53A83700416F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE618551A53A83700416F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE618651A53A83700416F5F /* ViewController.m in Sources */,
+				5FE618871A53A87400416F5F /* VICMAImageView.m in Sources */,
+				5FE618621A53A83700416F5F /* AppDelegate.m in Sources */,
+				5FE6185F1A53A83700416F5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE6186E1A53A83700416F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE618791A53A83700416F5F /* VICMAImageViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE618741A53A83700416F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE618581A53A83700416F5F /* VICMAImageViewDemo */;
+			targetProxy = 5FE618731A53A83700416F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FE618661A53A83700416F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE618671A53A83700416F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE6186B1A53A83700416F5F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE6186C1A53A83700416F5F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE6187A1A53A83700416F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE6187B1A53A83700416F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE6187D1A53A83700416F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VICMAImageViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FE6187E1A53A83700416F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VICMAImageViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FE618801A53A83700416F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VICMAImageViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VICMAImageViewDemo.app/VICMAImageViewDemo";
+			};
+			name = Debug;
+		};
+		5FE618811A53A83700416F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VICMAImageViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VICMAImageViewDemo.app/VICMAImageViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE618541A53A83700416F5F /* Build configuration list for PBXProject "VICMAImageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE6187A1A53A83700416F5F /* Debug */,
+				5FE6187B1A53A83700416F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE6187C1A53A83700416F5F /* Build configuration list for PBXNativeTarget "VICMAImageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE6187D1A53A83700416F5F /* Debug */,
+				5FE6187E1A53A83700416F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FE6187F1A53A83700416F5F /* Build configuration list for PBXNativeTarget "VICMAImageViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE618801A53A83700416F5F /* Debug */,
+				5FE618811A53A83700416F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE618511A53A83700416F5F /* Project object */;
+}
