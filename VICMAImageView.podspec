@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version  = '1.0'
   s.platform = :ios,'6.0'
   s.license  = { :type => 'MIT', :file => 'LICENSE' }
-  s.summary  = 'A simple way to handle special event at special time.'
+  s.summary  = 'Content Mode Animatable Image View, change image view\'s content mode with your animation!'
   s.homepage = 'https://github.com/vitoziv/VICMAImageView'
   s.author   = { 
     'Vito Zhang' => 'vvitozhang@gmail.com'

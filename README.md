@@ -4,6 +4,12 @@ Change image view's content mode with your animation!
 
 ![demo.gif](http://i.imgur.com/yWSyuq3.gif)
 
+## Installation
+
+**Cocoapods**
+
+`pod 'VICMAImageView', '~> 1.0'`
+
 ## Usage
 
 Use VICMAImageView like a UIImageView
