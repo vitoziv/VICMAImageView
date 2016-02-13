@@ -6,7 +6,7 @@ Change image view's content mode with your animation!
 
 ## Installation
 
-**Cocoapods**
+**CocoaPods**
 
 `pod 'VICMAImageView', '~> 1.0'`
 
